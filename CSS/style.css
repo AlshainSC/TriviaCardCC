@@ -83,11 +83,12 @@ body {
   background-color: #0b2748;
 }
 .smiley{
-	display: none;
+    display: none;
 }
 
 .frown{
-  display: none;
+    display: none;
+    padding-left: 2px;
 }
 
 .hide-hint-text{
@@ -110,3 +111,20 @@ body {
   padding-left: 55px;
 }
 
+.reset {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 60px;
+    color: #4a90e2;
+    background-color: #0b2748;
+    text-align: center;
+    text-justify: auto;
+    font-size: 42px;
+    font-family: Source Sans Pro;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
